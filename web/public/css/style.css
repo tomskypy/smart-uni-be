@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#map.desktop {
+    height: 100%;
+    width: 100%;
+}
+
+#map.mobile {
+    height: 1000px;
+    width: 500px;
+}
+
+.ol-zoom-in, .ol-zoom-out, .ol-zoom {
+   visibility: hidden;
+}

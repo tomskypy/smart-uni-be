@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  div(id='map', class='' + device + ' center')
+
+  block js
+    script(src='https://maps.muni.cz/munimap/latest/munimaplib.js')
+    script.
+      title='#{title}';
+      muniTarget='#{muniTarget}';
+      var config={
+        target: 'map',
+        markers: [muniTarget]
+      };
+      zoomValue='#{mapZoom}';
+      if(zoomValue!=''){ config['zoom']=zoomValue }
+      munimap.create(config);
+

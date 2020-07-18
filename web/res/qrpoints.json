@@ -1,0 +1,88 @@
+{
+    "qrPoints": [
+        {
+            "id": "9f3fafea-05a9-4c85-9270-36eda0176315",
+            "label": "FI MUNI Main Hall",
+            "munimap": "BNA01N01203",
+            "arObjects": [
+                {
+                    "objectType": "room",
+                    "label": "D Rooms",
+                    "dimen": {
+                        "w": 25,
+                        "h": 14,
+                        "l": 27
+                    },
+                    "pos": {
+                        "r": -60,
+                        "u": 3,
+                        "f": -8
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2a8e2e14-9f8d-4b3e-88ff-7d4d44982e56",
+            "label": "FI MUNI D1",
+            "munimap": "BNA01N01D110",
+            "arObjects": [
+                {
+                    "objectType": "room",
+                    "label": "D1",
+                    "dimen": {
+                        "w": 17,
+                        "h": 5,
+                        "l": 12
+                    },
+                    "pos": {
+                        "r": 8,
+                        "u": 2.5,
+                        "f": 6
+                    }
+                }
+            ]
+        },
+        {
+            "id": "47e12281-e548-44a4-bce2-fbf4c150b2d8",
+            "label": "FI MUNI D2",
+            "munimap": "BNA01P01D141",
+            "arObjects": [
+                {
+                    "objectType": "room",
+                    "label": "D2",
+                    "dimen": {
+                        "w": 10,
+                        "h": 3.5,
+                        "l": 12
+                    },
+                    "pos": {
+                        "r": 5,
+                        "u": 1.75,
+                        "f": 6
+                    }
+                }
+            ]
+        },
+        {
+            "id": "eeb36992-452b-482a-b601-e2e2a189cbdf",
+            "label": "FI MUNI PC Hall",
+            "munimap": "BNA01N01D401",
+            "arObjects": [
+                {
+                    "objectType": "room",
+                    "label": "PC Hall",
+                    "dimen": {
+                        "w": 13,
+                        "h": 2.75,
+                        "l": 24
+                    },
+                    "pos": {
+                        "r": -1,
+                        "u": 0.5,
+                        "f": 21.5
+                    }
+                }
+            ]
+        }
+    ]
+}
