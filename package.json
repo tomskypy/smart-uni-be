@@ -1,14 +1,13 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "name": "smart-uni-be",
+  "version": "0.0.1",
+  "description": "Open-source Node.js back end for iOS app Smart University.",
   "engines": {
-    "node": "12.x"
+    "node": ">=12.x"
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "ejs": "^2.5.6",
@@ -21,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/TeeSky/smart-uni-be"
   },
   "keywords": [
     "node",
