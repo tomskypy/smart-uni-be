@@ -1,0 +1,44 @@
+{
+    "faculties": [
+        {
+            "id": 1,
+            "name": "Přirodovědecká fakulta",
+            "rooms": [
+                {
+                    "room_id": 1,
+                    "name": "001",
+                    "building": "B",
+                    "type": "posluchárna",
+                    "capacity": 100,
+                    "is_locked": true,
+                    "description": "Lorem ipsum dolor sit ..."
+
+                },
+                {
+                    "room_id": 2,
+                    "name": "002",
+                    "building": "C",
+                    "type": "seminární místnost",
+                    "capacity": 10,
+                    "is_locked": false,
+                    "description": "Lorem ipsum dolor sit ..."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Fakulta informatiky",
+            "rooms": [
+                {
+                    "room_id": 3,
+                    "name": "003",
+                    "building": "X",
+                    "type": "seminární místnost",
+                    "capacity": 15,
+                    "is_locked": false,
+                    "description": "Lorem ipsum dolor sit ..."
+                }
+            ]
+        }
+    ]
+}
